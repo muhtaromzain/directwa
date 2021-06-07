@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Open Sans";
+  height: 100%;
+  margin: 0;
+}
+
+.main {
+  height: 100%;
+  background-image: url("../assets/images/wa.png");
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 60px;
+  font-weight: 1000;
+  color: #1bd741;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.container {
+  padding: 50px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.input-number {
+  width: 70%;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: 0.5px solid #fff;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 7px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  width: 100px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn-chat {
+  background-color: #1bd741;
+}
+
+::placeholder {
+  color: #8d92a3;
+  font-family: "Open Sans";
+  font-style: italic;
+}
+
+input:focus {
+  /* outline: none; */
+  outline-color: #1bd741;
+}
+
+.item {
+  padding-top: 120px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+footer {
+  padding: 4px;
+}
