@@ -1,88 +1,93 @@
 @media (max-width: 1000px) {
+  .main {
+    padding-top: 15%;
+    height: 100%;
+    background-image: url("../assets/images/wa.png");
+    text-align: center;
+  }
 
-    .main {        
-        padding-top: 10%;
-        height: 100%;
-        background-image: url('../assets/images/wa.png');
-        text-align: center;
-    }
+  .main h1 {
+    font-size: 62px;
+    font-weight: 1000;
+    color: #1bd741;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #fff;
+  }
 
-    .main h1 {
-        font-size: 62px;
-        font-weight: 1000;
-        color: #1bd741;
-        -webkit-text-stroke-width: 0.5px;
-        -webkit-text-stroke-color: #fff;
-    }
+  .container {
+    margin: 0;
+    padding: 10px 20px;
+  }
 
-    .container {
-        margin: 0;
-        padding: 10px 20px;
-    }
+  .item {
+    height: 100%;
+    width: 100%;
+  }
 
-    .item {
-        height: 100%;
-        width: 100%;
-    }
+  .input-number {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+  }
 
-    .input-number {
-        width: 100%;
-        margin-bottom: 20px;
-        padding: 10px 20px;
-    }
+  .country-code {
+    width: 30%;
+  }
 
-    .btn {
-        padding: 12px 24px;
-        color: white;
-        display: inline-block;
-        opacity: 0.8;
-        border-radius: 4px;
-        text-align: center;
-        width: 100%;
-    }
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 @media (max-width: 670px) {
+  .main {
+    padding-top: 15%;
+    height: 100%;
+    background-image: url("../assets/images/wa.png");
+    text-align: center;
+  }
 
-    .main {        
-        padding-top: 35%;
-        height: 100%;
-        background-image: url('../assets/images/wa.png');
-        text-align: center;
-    }
+  .main h1 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1bd741;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #fff;
+  }
 
-    .main h1 {
-        font-size: 36px;
-        font-weight: 1000;
-        color: #1bd741;
-        -webkit-text-stroke-width: 0.5px;
-        -webkit-text-stroke-color: #fff;
-    }
+  .container {
+    margin: 0;
+    padding: 10px 20px;
+  }
 
-    .container {
-        margin: 0;
-        padding: 10px 20px;
-    }
+  .item {
+    height: 100%;
+    width: 100%;
+  }
 
-    .item {
-        height: 100%;
-        width: 100%;
-    }
+  .input-number {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+  }
 
-    .input-number {
-        width: 100%;
-        margin-bottom: 20px;
-        padding: 10px 20px;
-    }
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+  }
 
-    .btn {
-        padding: 12px 24px;
-        color: white;
-        display: inline-block;
-        opacity: 0.8;
-        border-radius: 4px;
-        text-align: center;
-        width: 100%;
-    }
-
+  .country-code {
+    width: 100%;
+  }
 }

@@ -13,6 +13,8 @@ html {
   height: 100%;
   background-image: url("../assets/images/wa.png");
   text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .main h1 {
@@ -34,7 +36,7 @@ a {
 }
 
 .input-number {
-  width: 70%;
+  width: 50%;
   margin-bottom: 20px;
   padding: 10px 20px;
   border: 0.5px solid #fff;
@@ -48,7 +50,7 @@ a {
   opacity: 0.8;
   border-radius: 4px;
   text-align: center;
-  width: 100px;
+  width: 150px;
 }
 
 .btn:hover {
@@ -66,7 +68,10 @@ a {
 }
 
 input:focus {
-  /* outline: none; */
+  outline-color: #1bd741;
+}
+
+select:focus {
   outline-color: #1bd741;
 }
 
@@ -84,6 +89,13 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-footer {
-  padding: 4px;
+.form {
+  display: inline;
+}
+
+.country-code {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: 0.5px solid #fff;
+  border-radius: 4px;
 }

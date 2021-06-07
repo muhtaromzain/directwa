@@ -14,10 +14,29 @@
 //   return localStorage.getItem(v);
 // }
 
+function CountryCodePlaceholder() {
+  let countryCode = document.getElementById("country-code").value;
+  if (countryCode === "62") {
+    document
+      .getElementById("input-number")
+      .setAttribute("placeholder", "Insert Phone Number, Ex: 081222333444");
+  } else if (countryCode === "60") {
+    document
+      .getElementById("input-number")
+      .setAttribute("placeholder", "Insert Phone Number, Ex: 01233334444");
+  } else if (countryCode === "65") {
+    document
+      .getElementById("input-number")
+      .setAttribute("placeholder", "Insert Phone Number, Ex: 067676868");
+  }
+}
+
 function Chat() {
   let number = document.getElementById("input-number").value;
+  let countryCode = document.getElementById("country-code").value;
   let fixNumber = number.substring(1);
+
   document
     .getElementById("btn-chat")
-    .setAttribute("href", `https://wa.me/62${fixNumber}`);
+    .setAttribute("href", `https://wa.me/${countryCode}${fixNumber}`);
 }

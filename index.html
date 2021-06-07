@@ -28,14 +28,26 @@
         <div class="item">
           <h1 id="title">Direct WhatsApp</h1>
           <div class="form">
-            <input
-              id="input-number"
-              onkeyup="saveValue(this);"
-              inputmode="tel"
-              pattern="[0-9]*"
-              class="input-number"
-              placeholder="Insert Phone Number, Ex: 081222333444"
-            />
+            <div class="input">
+              <select
+                onchange="CountryCodePlaceholder()"
+                class="country-code"
+                name="country-code"
+                id="country-code"
+              >
+                <option value="62">ID (+62)</option>
+                <option value="60">MY (+60)</option>
+                <option value="65">SG (+65)</option>
+              </select>
+              <input
+                id="input-number"
+                onkeyup="saveValue(this);"
+                inputmode="tel"
+                pattern="[0-9]*"
+                class="input-number"
+                placeholder="Insert Phone Number, Ex: 081222333444"
+              />
+            </div>
             <a
               id="btn-chat"
               class="btn btn-chat"
@@ -49,6 +61,5 @@
       </div>
     </div>
     <script type="text/javascript" src="./js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
   </body>
 </html>
