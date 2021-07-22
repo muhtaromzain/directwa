@@ -34,9 +34,13 @@ function CountryCodePlaceholder() {
 function Chat() {
   let number = document.getElementById("input-number").value;
   let countryCode = document.getElementById("country-code").value;
+
   let fixNumber = number.substring(1);
+  
+  let message = document.getElementById("message").value;
+  // let fixMessage = message.replaceAll(" ", "20%"); 
 
   document
     .getElementById("btn-chat")
-    .setAttribute("href", `https://wa.me/${countryCode}${fixNumber}`);
+    .setAttribute("href", `https://wa.me/${countryCode}${fixNumber}?text=${message}`);
 }

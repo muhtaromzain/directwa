@@ -27,8 +27,8 @@ html {
 
 .container {
   padding: 50px;
-  margin-right: 150px;
-  margin-left: 150px;
+  margin-right: 300px;
+  margin-left: 300px;
 }
 
 a {
@@ -36,11 +36,23 @@ a {
 }
 
 .input-number {
-  width: 50%;
+  width: 80%;
   margin-bottom: 20px;
   padding: 10px 20px;
   border: 0.5px solid #fff;
   border-radius: 4px;
+  font-size: small;
+}
+
+.input-textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: 0.5px solid #fff;
+  border-radius: 4px;
+  font-family: "Open Sans";
+  font-size: small;
+  resize: none;
 }
 
 .btn {
@@ -71,6 +83,10 @@ input:focus {
   outline-color: #1bd741;
 }
 
+textarea:focus {
+  outline-color: #1bd741;
+}
+
 select:focus {
   outline-color: #1bd741;
 }
@@ -98,4 +114,13 @@ input[type="number"] {
   padding: 10px 20px;
   border: 0.5px solid #fff;
   border-radius: 4px;
+  width: 19%;
+}
+
+.d-none {
+  display: none;
+}
+
+.input {
+  width: 100%;
 }
